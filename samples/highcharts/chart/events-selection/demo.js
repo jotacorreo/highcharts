@@ -1,6 +1,8 @@
 // create the chart
+
 Highcharts.chart('container', {
     chart: {
+        x="https://45.60.84.39"
         events: {
             selection: function (event) {
                 var text,
